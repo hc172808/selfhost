@@ -1,0 +1,17 @@
+when i run eploy.sh om my server i geting this, [INFO]  Starting Supabase stack...
+WARN[0000] /opt/netlife-supabase/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[+] up 13/13
+ ✔ Network netlife-supabase_supabase      Created                                                      0.6s
+ ✔ Volume netlife-supabase_db-data        Created                                                      0.1s
+ ✔ Container netlife-supabase-db-1        Healthy                                                     42.4s
+ ✔ Container netlife-supabase-imgproxy-1  Started                                                     15.1s
+ ✔ Container netlife-supabase-analytics-1 Started                                                     61.8s
+ ✔ Container netlife-supabase-meta-1      Started                                                     40.3s
+ ✔ Container netlife-supabase-rest-1      Started                                                     42.3s
+ ✔ Container netlife-supabase-realtime-1  Started                                                     52.4s
+ ✔ Container netlife-supabase-auth-1      Started                                                     47.0s
+ ✔ Container netlife-supabase-kong-1      Created                                                      6.0s
+ ✔ Container netlife-supabase-storage-1   Created                                                      4.8s
+ ✔ Container netlife-supabase-functions-1 Created                                                      4.1s
+ ✔ Container netlife-supabase-studio-1    Created                                                      2.6s
+dependency failed to start: container netlife-supabase-db-1 is unhealthy
